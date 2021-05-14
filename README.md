@@ -1,5 +1,4 @@
 # mysql-binary-upload
-Upload a binary file through MySQL to a remote host.
 If you want to transfer a binary file from your attacker machine to a remote host (eg. through SQLi where the underlying DBMS is MySQL), you can use the following technique.
 
 1. Create a DUMPFILE containing the hexadecimal representation (as string) of the binary data
