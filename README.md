@@ -2,10 +2,10 @@
 Upload a binary file through MySQL to a remote host.
 If you want to transfer a binary file from your attacker machine to a remote host (eg. through SQLi where the underlying DBMS is MySQL), you can use the following technique.
 
-1. Create a DUMPFILE containing the hexadecimal representation (as string) of the binary data.
+1. Create a DUMPFILE containing the hexadecimal representation (as string) of the binary data
 2. Use the Python helper script from this repository to divide the data into 1024 Byte sized chunks
 3. Insert each chunk into a temporary table on the victim host
-4. Finally the hexadecimal data gets parsed and its content dumped into the initial file
+4. Finally the hexadecimal data gets parsed and its content dumped into a new file representing the initial one
 
 ![image](https://user-images.githubusercontent.com/49280556/118298041-3da71980-b4df-11eb-8c24-db59aa66f0a6.png)
 
