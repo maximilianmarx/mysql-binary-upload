@@ -9,7 +9,8 @@ If you want to transfer a binary file from your attacker machine to a remote hos
 
 ![image](https://user-images.githubusercontent.com/49280556/118298041-3da71980-b4df-11eb-8c24-db59aa66f0a6.png)
 
-As you can see the files are identical (shell-x86.elf is the original file, hacked.elf is the dumped file on the victim).
+*As you can see the files are identical (shell-x86.elf is the original file, hacked.elf is the dumped file on the victim host)*
+
 
 ## Attacker
 ```mysql
